@@ -1,0 +1,14 @@
+# Python environment and cache
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# Ignore large PCAP files if reproducing locally with heavy traffic
+# (Uncomment the line below if new pcaps exceed 50MB)
+# *.pcap 
+
+# OS generated files
+.DS_Store
+Thumbs.db
