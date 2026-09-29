@@ -32,6 +32,24 @@ When a 5G phone (UE) initiates a Registration Request, the Access and Mobility M
 
 ---
 
+## Project Structure
+
+```
+open5gs-sbi-auth-tracing/
+├── data/
+│   ├── auth_trace.csv
+│   └── task_sbi_auth.pcap
+├── docs/
+│   ├── Authentication_Latency.png
+|   ├── sbi-auth-tracing-report.pdf
+│   └── Terminal_Execution_Output.png
+├── src/
+│   └── analyze_auth.py
+├── .gitignore
+├── LICENSE
+└── README.md
+```
+
 ## Prerequisites & Initial Setup
 
 This simulation runs on Ubuntu 22.04 LTS utilizing **Open5GS** and **UERANSIM**.
@@ -121,13 +139,3 @@ The Python script correlates the request/response timestamps to generate a visua
 * Documentation: Wireshark & TShark Network Protocol Analyzer User Guide (HTTP/2 Dissection parameters).
 
 ---
-
-### Done by
-
-**Name:** Dinesh S
-
-**College Reg. No:** 2117230040031
-
-**Degree & Year of Study:** B.E Electronics and Communication Engineering, Final Year
-
-**College Name:** Rajalakshmi Institute of Technology, Chennai.
